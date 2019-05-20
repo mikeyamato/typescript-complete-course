@@ -42,10 +42,10 @@ let myColorAlt: ColorAlt = ColorAlt.Gold;
 console.log(myColorAlt);  // 100. Then blue will be 101.
 
 // any (the most flexible of types. should use as a last resort)
-let car: any = "BMW";
-console.log(car);
-car = {brand: "BMW", series: 3};
-console.log(car); 
+let automobile: any = "BMW";
+console.log(automobile);
+automobile = {brand: "BMW", series: 3};
+console.log(automobile); 
 //the above will be okay. but if `: any` is removed then the 2nd log will spit out an error because it is an object and no longer a string.  
 
 // functions

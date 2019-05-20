@@ -1,10 +1,12 @@
 # [Compiling](http://www.typescriptlang.org/docs/handbook/compiler-options.html)
-`tsc <name of file>.ts`
+`tsc <name of file>.ts` || `tsc` (after `tsc --init` has run)
 
 `tsc --init` creates a config allowing user to just run `tsc` to compile all TS files. 
 
 # Run App (dev)
-`npm run dev`
+`npm run dev` || `npm start`
+
+In  order to run a `.js` file (from `index.html`) the `.ts` file needs to be compiled into `.js` format. So anytime there are changes to `.ts` always compile first then run.
 
 # Types
 string, number, boolean, array, tuples, enums, any

@@ -16,9 +16,9 @@ var countdown = function (start) {
 };
 countdown();
 // Spread (breaks up array)
-var numbers = [1, 10, 99, -5];
+var numbersAlt = [1, 10, 99, -5];
 console.log("Math.max", Math.max(33, 99, 10, -3));
-console.log("Spread operator", Math.max.apply(Math, numbers)); // BREAKS UP THE ARRAY and lists out the values individually.
+console.log("Spread operator", Math.max.apply(Math, numbersAlt)); // BREAKS UP THE ARRAY and lists out the values individually.
 // Rest (turns into array)
 function makeArray(arg1, arg2) {
     return [arg1, arg2]; // output would be [1, 2]
