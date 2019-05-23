@@ -65,4 +65,6 @@ something = 12;
 To prevent compiling if there are any unused parameters then set `"noUnusedParameters": true`. Default is false.
 
 # Setting up a new React app w/ TS
-`create-react-app . --scripts-version=react-scripts-ts` dot to signify to use the current folder (or signify the folder name). this will build the react app with TS out of the box. 
+`npx create-react-app . --scripts-version=react-scripts-ts` dot to signify to use the current folder (or signify the folder name). this will build the react app with TS out of the box. 
+
+`npm start`
